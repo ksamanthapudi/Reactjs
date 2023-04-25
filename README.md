@@ -2,8 +2,9 @@
 My First Single Page Application Using ReactJS!
 
 Fork and pull the project to local repo
-The given api key should be configured in .env file in root folder
+Add the given API Key to the BlogPage.js in the line 64.
 
 Run
-1: npm install 
-2: npm start
+1: Open a terminal
+2: npm install 
+3: npm start
