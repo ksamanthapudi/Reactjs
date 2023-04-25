@@ -55,14 +55,13 @@ const xml2js = require('xml2js');
           getNews()
          
         }, []);
-      
+        
         const [newsResponse, setResponse] = useState({});
         async function getNews() {
-          var apiKey = process.env.REACT_APP_APIKEY;
           const url =
             "http://newsapi.org/v2/everything?" +
             "q=platformer&" +
-            "apiKey="+apiKey;
+            "apiKey=Enter Api Key here";
           const response = await fetch(url);
           const data = await response.json();
           setResponse(data);
